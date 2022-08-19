@@ -1,0 +1,203 @@
+body {
+  padding: 0px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  height: 700px;
+  width: 100%;
+  background: #171717;
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  display: inline-flex;
+  list-style-type: none;
+  color: lightgray;
+  font-size: medium;
+  margin-left: 20rem;
+  padding-top: 20px;
+}
+.nav {
+  margin-left: 25px;
+}
+.header {
+  text-align: center;
+  padding-top: 230px;
+}
+.content {
+  width: 100%;
+  display: block;
+  flex-direction: row-reverse;
+  text-align: center;
+  /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 50%, #ffffff 100%); */
+}
+.kazi-img {
+  float: right;
+  margin: 100px 300px 100px 40px;
+  width: 500px;
+  padding: 40px;
+  padding-top: 75px;
+  text-align: right;
+}
+.intro {
+  display: inline-block;
+  text-align: left;
+  width: 540px;
+  padding: 20px;
+  font-size: larger;
+  margin-top: 100px;
+}
+
+.label {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.label button{
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+
+.quote {
+  color: white;
+  text-align: center;
+  background: #171717;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+.quote h3 {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.awa {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #edebeb;
+  border-left: 5px;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  padding-top: 25px;
+  height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.awa span {
+  background: #fff;
+  padding-right: 15px;
+  margin: 10px;
+  border: 12px;
+}
+
+i {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.awards-container {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.awards {
+  width: 300px;
+  margin: 70px 10px;
+  border: 1px rgb(185, 181, 181);
+  border-style: groove;
+  background-color: white;
+  text-align: center;
+  min-height: 60px;
+  padding: 5px;
+  text-align: left;
+  border-radius: 5%;
+}
+
+
+
+h5 span {
+  color: grey;
+  font-size: medium;
+}
+
+.poems-songs {
+  display:flex;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding: 30px;
+  height: 500px;
+  font-size: small;
+}
+
+#poem {
+  width: 500px;
+  margin: 10px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+
+
+#songs {
+  width: 500px;
+  margin: 10px;
+  text-align: left;
+  padding-left: 50px;
+  
+}
+.line {
+  width: 300px 200%;
+  text-align: center;
+  border-bottom: 1px solid #edebeb;
+  border-left: 5px;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  padding-top: 25px;
+  height: 32px;
+  padding-right: 55px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+.line > span {
+  background: #fff;
+  padding-right: 15px;
+  margin: 10px;
+  border: 12px;
+}
+
+.poem-list {
+  padding-left: 40px;
+}
+.ref {
+  color: white;
+  text-align: center;
+  background: #171717;
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+}
+.ref > p {
+  display: inline-block;
+  text-align: left;
+  font-size: small;
+  vertical-align: middle;
+  line-height: normal;
+  padding-left: 16px;
+  padding-right: 20px;
+}
+
+.footer > span {
+  display: block;
+}
